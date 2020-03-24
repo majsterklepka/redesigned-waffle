@@ -1,3 +1,6 @@
 [submodule "lufa"]
 	path = lufa
 	url = https://github.com/abcminiuser/lufa
+[submodule "expert-waffle"]
+	path = expert-waffle
+	url = https://github.com/majsterklepka/expert-waffle
