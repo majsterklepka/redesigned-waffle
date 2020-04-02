@@ -1,6 +1,9 @@
 # redesigned-waffle
 mkII AVRISP programmer clone
 
+![PCB 3D view](https://github.com/majsterklepka/avrisp-mkII-clone/raw/master/avrisp-mkII-clone.png "PCB Board 3D view")
+
+
 Projekt klonu wykonany w KiCad. Pewne elementy schematu ideowego wymagają bibliotek, są one dostępne tu: [majsterklepka/expert-waffle](https://github.com/majsterklepka/expert-waffle "eeschema KiCad Libraries"), należy sklonować repo i zainstalować wymagane biblioteki ręcznie.
 
 Klon wykorzystuje framework [LUFA](https://github.com/abcminiuser/lufa "LUFA")
