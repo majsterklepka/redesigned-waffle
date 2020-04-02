@@ -23,7 +23,7 @@ firmware.hex - plik HEX z firmware, LUFA/Projects/AVRISP-MKII/
 
 ```
 
-Tyle w skrócie, czasem należy podać dodatkowe dane, takie jak `<vendor>:<produc>t`. Te dane podaje się z opcją `--device`, więcej informacji:
+Tyle w skrócie, czasem należy podać dodatkowe dane, takie jak `<vendor>:<product>`. Te dane podaje się z opcją `--device`, więcej informacji:
 
 ```
 dfu-util --help
