@@ -106,17 +106,6 @@ F 3 "~" H 2650 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D1
-U 1 1 5E72A884
-P 2950 4400
-F 0 "D1" V 2904 4479 50  0000 L CNN
-F 1 "1N4148" V 2995 4479 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 4225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 4400 50  0001 C CNN
-	1    2950 4400
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5E72AE4A
 P 2650 4900
@@ -224,7 +213,7 @@ U 1 1 5E7365CD
 P 8200 3250
 F 0 "C8" H 8318 3296 50  0000 L CNN
 F 1 "10u" H 8318 3205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" H 8238 3100 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 8238 3100 50  0001 C CNN
 F 3 "~" H 8200 3250 50  0001 C CNN
 	1    8200 3250
 	1    0    0    -1  
@@ -235,7 +224,7 @@ U 1 1 5E736A15
 P 9250 3250
 F 0 "C9" H 9368 3296 50  0000 L CNN
 F 1 "10u" H 9368 3205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" H 9288 3100 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 9288 3100 50  0001 C CNN
 F 3 "~" H 9250 3250 50  0001 C CNN
 	1    9250 3250
 	1    0    0    -1  
@@ -401,7 +390,7 @@ U 1 1 5E751CAE
 P 4400 7800
 F 0 "C6" H 4518 7846 50  0000 L CNN
 F 1 "10u" H 4518 7755 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" H 4438 7650 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 4438 7650 50  0001 C CNN
 F 3 "~" H 4400 7800 50  0001 C CNN
 	1    4400 7800
 	1    0    0    -1  
@@ -818,7 +807,7 @@ U 1 1 5E730DA2
 P 13400 6100
 F 0 "J2" H 13071 6146 50  0000 R CNN
 F 1 "AVR-PDI-6" H 13071 6055 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" V 13150 6050 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 13150 6050 50  0001 C CNN
 F 3 " ~" H 12125 5550 50  0001 C CNN
 	1    13400 6100
 	1    0    0    -1  
@@ -829,7 +818,7 @@ U 1 1 5E7317D4
 P 13400 7550
 F 0 "J3" H 13071 7596 50  0000 R CNN
 F 1 "AVR-TPI-6" H 13071 7505 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" V 13150 7500 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 13150 7500 50  0001 C CNN
 F 3 " ~" H 12125 7000 50  0001 C CNN
 	1    13400 7550
 	1    0    0    -1  
@@ -1130,4 +1119,15 @@ Wire Wire Line
 Connection ~ 7800 3000
 Wire Wire Line
 	7800 3000 7800 4800
+$Comp
+L Diode:1N4148W D1
+U 1 1 5E851AE0
+P 2950 4400
+F 0 "D1" V 2904 4480 50  0000 L CNN
+F 1 "1N4148W" V 2995 4480 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2950 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2950 4400 50  0001 C CNN
+	1    2950 4400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
