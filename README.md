@@ -36,7 +36,7 @@ dfu-util --help
 
 Jako taki projekt jest znany w Sieci, istnieje wiele dostępnych modyfikacji, tu jest jedna z nich.
 
-- MIT
+- [MIT](https://raw.githubusercontent.com/majsterklepka/redesigned-waffle/master/LICENSE "MIT License content")
 
 Ten projekt to moja wersja, moja wizja tego popularnego programatora.
 
